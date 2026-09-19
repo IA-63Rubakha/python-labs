@@ -1,0 +1,6 @@
+x1 = int(input("Введіть х1: "))
+y1 = int(input("Введіть y1: "))
+x2 = int(input("Введіть x2: "))
+y2 = int(input("Введіть y2: "))
+can_move = (x1 ==x2) or (y1 == y2) or (abs(x1 - x2) == abs(y1 - y2))
+print("Ферзь може перейти:", can_move)

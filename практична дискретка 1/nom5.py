@@ -1,0 +1,6 @@
+a = int(input("Введи a: "))
+b = int(input("Введи b: "))
+c = int(input("Введи c: "))
+print("a < b < c:", a < b < c)
+print("Хоча б одне додатне:", a > 0 or b > 0 or c > 0)
+print("Рівно одне додатне:", (a > 0) + (b > 0) + (c > 0) == 1)

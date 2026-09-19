@@ -1,0 +1,10 @@
+x1 = float(input(" Введи х1: "))
+y1 = float(input(" Введи y1: "))
+x2 = float(input(" Введи х2: "))
+y2 = float(input(" Введи y2: "))
+width = abs(x1 - x2)
+height = abs(y1 - y2)
+s = width * height
+p = 2 * (width + height)
+print("Площа S=", s )
+print("Периметр P=", p)
